@@ -1,1 +1,44 @@
-
+{
+    "pages": [
+        {
+            "id": "home", 
+            "metaTitle": "Velkommen", 
+            "metaDesc": "...", 
+            "menuTitle": "Forside", 
+            "headline": "Velkommen", 
+            "include": "home.php"
+        },
+        {
+            "id": "game", 
+            "metaTitle": "Menu & Vin", 
+            "metaDesc": "..", 
+            "menuTitle": "Menu & Vin", 
+            "headline": "..", 
+            "include": "menuwine.php"
+        },
+        {
+            "id": "fjord", 
+            "metaTitle": "Historien", 
+            "metaDesc": "...", 
+            "menuTitle": "Historien", 
+            "headline": "...", 
+            "include": "history.php"
+        },
+        {
+            "id": "contact", 
+            "metaTitle": "Kontakt", 
+            "metaDesc": "...", 
+            "menuTitle": "Kontakt", 
+            "headline": "...", 
+            "include": "contact.php"
+        },
+        {
+            "id": "contact", 
+            "metaTitle": "Book", 
+            "metaDesc": "...", 
+            "menuTitle": "Book", 
+            "headline": "...", 
+            "include": "book.php"
+        }
+    ] 
+}

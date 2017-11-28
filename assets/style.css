@@ -1,1 +1,4 @@
-
+/* Styling af alle elementer på hjemmesiden (global styling) */
+body {
+    height: 1500px;
+}
