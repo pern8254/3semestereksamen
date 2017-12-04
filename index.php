@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Font hentet fra Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
    
     <!-- Eget styletile -->
     <link rel="stylesheet" href="assets/style.css">
@@ -29,10 +29,9 @@
    
    <main>
     <header class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <?php include_once ('inc/pages/menu.php'); ?>
-           <?php Menu(); ?>
-       </nav>
+         <nav class="col-sm navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+             <?php include_once ('inc/pages/menu.php'); ?>
+         </nav>
     </header>
    
 
