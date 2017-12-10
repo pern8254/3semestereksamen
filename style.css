@@ -1,0 +1,227 @@
+/*
+Theme Name: Vaar Theme 
+Author: Pernille Søndergaard
+Author URI: http://portfolio.pernillesondergaard.dk
+Description: Restaurant Vaars homepage theme. Written by Pernille Søndergaard. Designet by Signe Slente Vive, Line Brygger Hansen, Rikke Wied Pedersen and Pernille Søndergaard. 
+Version: 0.1
+*/
+
+/***** Styling af body *****/
+body {
+    margin: 0;
+    font-family: 'barlow';
+    max-width: 100%;
+}
+
+/***** Styling af links *****/
+a {
+    color: #63735a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #979f88;
+}
+
+/***** Styling af header *****/
+#logo {
+    height: 70px;
+    position: relative;
+    margin-right: 1350px;
+    margin-left: 40px;
+    margin-bottom: -30px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    z-index: 99999;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+nav ul li {
+    margin-right: 3%;
+}
+
+/***** Finder sidste led i menuen *****/
+nav ul li:last-child {
+    border-bottom: 1px solid #f0ecdf;
+}
+
+nav ul li a {
+    color: #f0ecdf; 
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #979f88;
+    border-bottom: 1px solid #909f88;
+}
+
+nav ul li a:active {
+    text-decoration: none;
+    color: #979f88;
+    border-bottom: 1px solid #909f88;
+}
+
+/***** Der kommer baggrund på navigationen *****/
+.background {
+    background-color: #30302f;
+    color: #f0ecdf;
+    top: 0;
+    transition: .3s;
+}
+
+/***** Styling af forside *****/
+.container-fluid {
+    padding-right: 0;
+}
+
+.col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+/***** Styling af tesktboksen centreret på forsiden *****/
+.textBox {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0ecdf;
+    font-weight: 300;
+}
+
+.textBox h1 {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.textBox p {
+    font-size: 40px;
+}
+
+.btnFrontPage {
+    color: #f0ecdf;
+    font-size: 30px;
+    border: 2px solid #f0ecdf;
+    border-radius: 10px;
+    padding: 10px 80px;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #909f88 50%, rgba(255,255,255,0) 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+}
+
+.btnFrontPage:not(:last-child) {
+    margin-right: 50px;
+}
+
+.btnFrontPage:hover {
+    background-position: 0 -100%;
+    border: 2px solid #909f88;
+    color: #f0ecdf;
+}
+
+/***** Styling af historie og book *****/
+.col-sm-6 {
+    margin-top: 100px;
+}
+
+.col-sm-6:not(:first-child) {
+    padding-right: 50px;
+}
+
+.col-sm-6:not(:last-child) {
+    padding-left: 0;
+}
+
+.halfPageImg {
+    width: 100%;
+}
+
+.btn {
+    color: #909f88;
+    font-size: 24px;
+    border: 2px solid #909f88;
+    border-radius: 10px;
+    padding: 10px 80px;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #909f88 50%, rgba(255,255,255,0) 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+}
+.btn:hover {
+    background-position: 0 -100%;
+    border: 2px solid #909f88;
+    color: #f0ecdf;
+}
+
+
+/***** Styling af menu&vin og kontakt *****/
+.col-sm-4 {
+    padding: 0;
+}
+
+.threeImg {
+    width: 100%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/***** Styling af footer *****/
+footer {
+    margin: 0;
+    background-color: #f0ecdf;
+}
+
+#col1 {
+    
+}
+
+#col2 {
+    text-align: center;
+}
+
+#col3 {
+    text-align: right;
+}
+
+.soMe {
+    height: 60px;
+}
+
+.soMe:not(:last-child) {
+    margin-right: 10px;
+}
+
+.soMe:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#col4 {
+    text-align: center;
+}
