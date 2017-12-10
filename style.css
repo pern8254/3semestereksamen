@@ -11,6 +11,8 @@ body {
     margin: 0;
     font-family: 'barlow';
     max-width: 100%;
+    /* Teksten får lige margener */
+    text-align: justify;
 }
 
 /***** Styling af links *****/
