@@ -13,7 +13,7 @@
 <body>
    
    <nav class="headertwo">
-        <a href="#">
+        <a href="http://localhost/wordpress-4.9/wordpress/">
             <img id="logo" src="<?php echo get_template_directory_uri()?>/images/logo.png ?>" alt="Vår logo">
         </a>
        <?php

@@ -1,4 +1,4 @@
-<?php /* Template Name: customPage2 */ ?>
+<?php /* Template Name: customPage4 */ ?>
 
 
    <?php
@@ -9,7 +9,7 @@
     <main class="container-fluid">
         <section class="row">
             <section class="col-sm-6">
-                <img class="img-fluid halfPageImg" src="<?php echo get_template_directory_uri()?>/images/facade.png ?>" alt="">
+                <img class="img-fluid halfPageImg" src="<?php echo get_template_directory_uri()?>/images/book1.png ?>" alt="">
             </section>
            
             <section class="col-sm-6">
@@ -39,5 +39,3 @@
     //Henter footer.php
           get_footer();
 ?>
-
-

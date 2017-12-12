@@ -11,8 +11,6 @@ body {
     margin: 0;
     font-family: 'barlow';
     max-width: 100%;
-    /* Teksten får lige margener */
-    text-align: justify;
 }
 
 /***** Styling af links *****/
@@ -85,6 +83,11 @@ nav ul li a:active {
     transition: .3s;
 }
 
+/***** Styling af header nr. 2 *****/
+.headertwo {
+    background-color: #30302f;
+}
+
 /***** Styling af forside *****/
 .container-fluid {
     padding-right: 0;
@@ -145,15 +148,15 @@ video {
 }
 
 /***** Styling af historie og book *****/
-.col-sm-6 {
+section.col-sm-6 {
     margin-top: 100px;
 }
 
-.col-sm-6:not(:first-child) {
+section.col-sm-6:not(:first-child) {
     padding-right: 50px;
 }
 
-.col-sm-6:not(:last-child) {
+section.col-sm-6:not(:last-child) {
     padding-left: 0;
 }
 
@@ -179,7 +182,6 @@ video {
     color: #f0ecdf;
 }
 
-
 /***** Styling af menu&vin og kontakt *****/
 .col-sm-4 {
     padding: 0;
@@ -197,10 +199,7 @@ video {
 footer {
     margin: 0;
     background-color: #f0ecdf;
-}
-
-#col1 {
-    
+    overflow-x: hidden;
 }
 
 #col2 {

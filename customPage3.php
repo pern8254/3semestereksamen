@@ -1,4 +1,4 @@
-<?php /* Template Name: customPage1 */ ?>
+<?php /* Template Name: customPage3 */ ?>
 
  <?php
         //Henter header.php 
@@ -8,15 +8,15 @@
     <main class="container-fluid">
         <section class="row"><br><br><br><br>
             <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/mad1.png ?>" alt="">
+                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/kontakt1.png ?>" alt="">
             </section>
                                 
             <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/mad2.png ?>" alt="">
+                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/kontakt2.png ?>" alt="">
             </section>
             
              <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/mad3.png ?>" alt="">
+                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/kontakt3.png ?>" alt="">
             </section>
         </section>
         
@@ -43,20 +43,6 @@
                 ?>
             </section>   
         </section>  
-        
-        <section class="row">
-            <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/vin4.png ?>" alt="">
-            </section>
-                                
-            <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/vin5.png ?>" alt="">
-            </section>
-            
-             <section class="col-sm-4">
-                <img class="img-fluid threeImg" src="<?php echo get_template_directory_uri()?>/images/vin6.png ?>" alt="">
-            </section>
-        </section>
         
     </main>
 

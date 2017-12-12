@@ -13,8 +13,8 @@
                <div class="textBox text-center">
                    <h1>Velkommen</h1>
                         <p>til Restaurant Vår</p> <br><br>
-                            <a class="btnFrontPage" href="#">Menu</a>
-                            <a class="btnFrontPage" href="#">Book</a>
+                            <a class="btnFrontPage" href="http://localhost/wordpress-4.9/wordpress/menu-vin/">Menu</a>
+                            <a class="btnFrontPage" href="http://localhost/wordpress-4.9/wordpress/book/">Book</a>
                </div>
                 
     <?php 
