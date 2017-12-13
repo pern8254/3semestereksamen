@@ -1,43 +1,39 @@
 <?php /* Template Name: customPage2 */ ?>
-
-
-   <?php
-        //Henter header.php 
-        get_header(2);
-   ?>
-    
+  
+<?php
+    //Henter header.php 
+    get_header(2);
+?>
+   <!-- Der skabes en container med grid med to dele, i den ene side er der et billede der fylder det hele i den anden teksten fra wordpress -->
     <main class="container-fluid">
-        <section class="row">
+        <section class="row section1">
             <section class="col-sm-6">
-                <img class="img-fluid halfPageImg" src="<?php echo get_template_directory_uri()?>/images/facade.png ?>" alt="">
+                <img class="img-fluid halfPageImg" src="<?php echo get_template_directory_uri()?>/images/facade.png" alt="Facaden ved Restaurant Vår i Vintapperstræde, Odense">
             </section>
            
             <section class="col-sm-6">
                  <?php 
-        
-                    //the post loop
+                    //Der skabes et loop som viser posts
                     if ( have_posts() ){
                         while (have_posts() ){
                         the_post();
-        
-                        echo '<h1>';
+                        
+                        //Overskrift
+                        echo '<h1 class="centerText">';
                         the_title();
                         echo '</h1>';
 
-                        // post content here 
+                        //Indholdet af post 
                         the_content();
        
-                        } //end while
-                    } //end if
-          
+                        } //Slutter while
+                    } //Slutter if
                 ?>
             </section>   
-        </section>  
+        </section>   
     </main>
 
 <?php
     //Henter footer.php
-          get_footer();
+    get_footer();
 ?>
-
-

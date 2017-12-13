@@ -53,7 +53,7 @@ nav ul li {
     margin-right: 3%;
 }
 
-/***** Finder sidste led i menuen *****/
+/* Finder sidste led i navigationen */
 nav ul li:last-child {
     border-bottom: 1px solid #f0ecdf;
 }
@@ -90,7 +90,7 @@ nav ul li a:active {
 
 /***** Styling af forside *****/
 .container-fluid {
-    padding-right: 0;
+    padding: 0;
 }
 
 .col-sm-12 {
@@ -105,7 +105,7 @@ video {
     overflow-x: hidden;
 }
 
-/***** Styling af tesktboksen centreret på forsiden *****/
+/* Styling af tekstboksen og knapperne centreret på forsiden */
 .textBox {
     position: absolute;
     top: 50%; 
@@ -129,16 +129,12 @@ video {
     font-size: 30px;
     border: 2px solid #f0ecdf;
     border-radius: 10px;
-    padding: 10px 80px;
+    padding: 10px 80px; 
     background-size: 100% 200%;
     background-image: linear-gradient(to top, #909f88 50%, rgba(255,255,255,0) 50%);
     -webkit-transition: background-position .5s;
     -moz-transition: background-position .5s;
     transition: background-position .5s;
-}
-
-.btnFrontPage:not(:last-child) {
-    margin-right: 50px;
 }
 
 .btnFrontPage:hover {
@@ -147,7 +143,7 @@ video {
     color: #f0ecdf;
 }
 
-/***** Styling af historie og book *****/
+/***** Styling af historie og book siderne *****/
 section.col-sm-6 {
     margin-top: 100px;
 }
@@ -176,13 +172,14 @@ section.col-sm-6:not(:last-child) {
     -moz-transition: background-position .5s;
     transition: background-position .5s;
 }
+
 .btn:hover {
     background-position: 0 -100%;
     border: 2px solid #909f88;
     color: #f0ecdf;
 }
 
-/***** Styling af menu&vin og kontakt *****/
+/***** Styling af menu&vin og kontakt siderne *****/
 .col-sm-4 {
     padding: 0;
 }
@@ -225,4 +222,108 @@ footer {
 
 #col4 {
     text-align: center;
+}
+
+/***** Media Query *****/
+
+/***** Til mindre skærme end 768 px *****/
+@media screen and (max-width: 768px) {
+
+    bode {
+        overflow-x: hidden;
+    }
+/***** Styling af navigation *****/
+#logo {
+    height: 30px;
+    position: relative;
+    margin-right: 1350px;
+    margin-left: 5px;
+    margin-bottom: -30px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 99999;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow-x: hidden;
+}
+
+/***** Styling af forside *****/
+.container-fluid {
+    padding: 0;
+}
+
+.col-sm-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+video {
+    height: 768px;
+    width: 100%;
+    object-fit: cover;
+}
+    
+/***** Styling af tesktboksen centreret på forsiden *****/
+.textBox h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.textBox p {
+    font-size: 32px;
+}
+
+.btnFrontPage {
+    text-align: center;
+    color: #f0ecdf;
+    font-size: 30px;
+    border: 2px solid #f0ecdf;
+    border-radius: 10px;
+    padding: 0px 80px; 
+}
+
+    /***** Styling af historie og book siderne *****/
+section.col-sm-6:not(:first-child) {
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/***** Styling af menu&vin og kontakt siderne *****/
+.col-sm-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+    footer {
+        overflow-x: hidden;
+    }
+
+}
+
+/***** Til mindre skærme end 768 px *****/
+@media screen and (max-width: 600px) {
+    
+#col1 {
+    text-align: center;
+}    
+    
+#col2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#col3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#col4 {
+    text-align: center;
+    margin-top: 30px;
+}
 }

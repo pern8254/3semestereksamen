@@ -1,49 +1,47 @@
-
-   <?php
-        //Henter header.php 
-        get_header();
-   ?>
-    
+<?php
+    //Henter header.php 
+    get_header();
+?>
+   <!-- Skaber en container med grid i form af row og col --> 
    <main class="container-fluid">
        <section class="row">
-           <section class="col-sm-12">
-           
-               <video class="fontpagevideo" src="<?php echo get_template_directory_uri()?>/images/frontpagevideo.mp4 ?>" autoplay></video>
+            <section class="col-sm-12">
                
+               <!-- Videoen på forsiden bliver hentet, der er en poster som vises inden videoen afspilles, autoplay gør at videoen afspilles når den er loadet --> 
+               <video class="fontpagevideo" src="<?php echo get_template_directory_uri()?>/images/frontpagevideo.mp4" autoplay poster="<?php echo get_template_directory_uri()?>/images/poster.png"></video>
+               
+               <!-- Der skabes en boks med overskrift samt knapper --> 
                <div class="textBox text-center">
                    <h1>Velkommen</h1>
-                        <p>til Restaurant Vår</p> <br><br>
-                            <a class="btnFrontPage" href="http://localhost/wordpress-4.9/wordpress/menu-vin/">Menu</a>
-                            <a class="btnFrontPage" href="http://localhost/wordpress-4.9/wordpress/book/">Book</a>
+                        <p>til Restaurant Vår</p>
+                            <br><br>
+                               <a class="btnFrontPage" href="http://vaar.pernillesondergaard.dk/wordprees/menu-vin/">Menu</a>
+                                <a class="btnFrontPage" id="btn2" href="http://vaar.pernillesondergaard.dk/wordpress/book/">Book</a>
                </div>
-                
-    <?php 
-        
-        //the post loop
+               
+<?php    
+    //Der skabes et loop som viser posts
           if ( have_posts() ){
               while (have_posts() ){
                   the_post();
-        
+                
+                //Overskrift
                 echo '<h1>';
                 the_title();
                 echo '</h1>';
 
-                // post content here 
-                  the_content();
+                //Indholdet af post 
+                the_content();
        
-              } //end while
-          } //end if
-          
-    ?>
+              } //Slutter while
+          } //Slutter if
+?>
    
-          </section>
-       </section>
+            </section>
+        </section>
     </main>
 
 <?php
     //Henter footer.php
-          get_footer();
+    get_footer();
 ?>
-
-
-

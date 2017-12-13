@@ -7,3 +7,4 @@ function myFunction() {
         document.getElementById("nav").className = "";
     }
 }
+
