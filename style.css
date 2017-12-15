@@ -143,6 +143,10 @@ video {
     color: #f0ecdf;
 }
 
+#btn2 {
+    margin-left: 50px;
+}
+
 /***** Styling af historie og book siderne *****/
 section.col-sm-6 {
     margin-top: 100px;
@@ -261,12 +265,20 @@ nav {
     padding-right: 15px;
 }
 
+.textBox {
+    position: absolute;
+    top: 35%; 
+    left: 50%;
+    color: #f0ecdf;
+    font-weight: 300;
+}
+    
 video {
     height: 768px;
     width: 100%;
     object-fit: cover;
 }
-    
+
 /***** Styling af tesktboksen centreret på forsiden *****/
 .textBox h1 {
     font-size: 60px;
@@ -279,12 +291,13 @@ video {
 
 .btnFrontPage {
     text-align: center;
-    color: #f0ecdf;
-    font-size: 30px;
-    border: 2px solid #f0ecdf;
-    border-radius: 10px;
-    padding: 0px 80px; 
+    padding: 1px 80px; 
 }
+
+#btn2 {
+    margin-left: 0px;
+}
+
 
     /***** Styling af historie og book siderne *****/
 section.col-sm-6:not(:first-child) {
@@ -299,9 +312,9 @@ section.col-sm-6:not(:first-child) {
     padding-right: 15px;
 }
  
-    footer {
+footer {
         overflow-x: hidden;
-    }
+}
 
 }
 

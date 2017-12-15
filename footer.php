@@ -18,7 +18,7 @@
                 <p>Vintappertræde 10 <br>
                    5000 Odense C <br><br>
                    CVR: 38483145 <br>
-                   <a href="http://www.findsmiley.dk/699594">Smiley rapport</a>
+                   <a href="http://www.findsmiley.dk/699594" target="_blank">Smiley rapport</a>
                 </p>
         </div>
         
@@ -28,13 +28,13 @@
                 <p>+45 26 49 26 44 <br>
                     <a href="mailto:info@vaar.dk">info@vaar.dk</a>
                 </p> <br>
-                   <a href="https://www.facebook.com/restaurantvaar/">
+                   <a href="https://www.facebook.com/restaurantvaar/" target="_blank">
                        <img class="soMe" src="<?php echo get_template_directory_uri()?>/images/fb_logo.png" alt="Facebook logo">
                    </a>
-                   <a href="https://www.instagram.com/restaurant_vaar/">
+                   <a href="https://www.instagram.com/restaurant_vaar/" target="_blank">
                        <img class="soMe" src="<?php echo get_template_directory_uri()?>/images/in_logo.png" alt="Instagram logo">
                    </a>
-                   <a href="https://www.tripadvisor.dk/Restaurant_Review-g189524-d12632849-Reviews-Restaurant_Var-Odense_Funen_and_Islands.html">
+                   <a href="https://www.tripadvisor.dk/Restaurant_Review-g189524-d12632849-Reviews-Restaurant_Var-Odense_Funen_and_Islands.html" target="_blank">
                        <img class="soMe" src="<?php echo get_template_directory_uri()?>/images/ta_logo.png" alt="Tripadvisor logo">
                    </a>
         </div>

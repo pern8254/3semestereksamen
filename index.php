@@ -15,8 +15,8 @@
                    <h1>Velkommen</h1>
                         <p>til Restaurant Vår</p>
                             <br><br>
-                               <a class="btnFrontPage" href="http://vaar.pernillesondergaard.dk/wordprees/menu-vin/">Menu</a>
-                                <a class="btnFrontPage" id="btn2" href="http://vaar.pernillesondergaard.dk/wordpress/book/">Book</a>
+                               <a class="btnFrontPage" href="http://vaar.pernillesondergaard.dk/wordpress/menu-vin/">Menu</a>
+                                <a class="btnFrontPage" id="btn2" href="https://book.dinnerbooking.com/dk/da-DK/book/table/pax/1296/1" target="_blank">Book</a>
                </div>
                
 <?php    
